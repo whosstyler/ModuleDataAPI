@@ -1,0 +1,94 @@
+# .NET Ignore Rules
+
+# Ignore build outputs
+bin/
+obj/
+out/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Config files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Log files
+*.log
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+
+# Rider
+.idea/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored if not using `PackageReference` in project (.csproj) files
+# Uncomment if you have `packages.config` files or `.csproj` files that use `packages.config`:
+# packages/
+
+# C++ Ignore Rules
+
+# Build directories
+build/
+Build/
+cmake-build-*/
+
+# Compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled Dynamic libraries
+*.dll
+*.dylib
+*.so
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Dependency files
+*.d
+*.dep
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeLists.txt.user
+
+# Miscellaneous
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# IDEs and editors
+.idea/
+.vscode/
+.vscode/*
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+desktop.ini

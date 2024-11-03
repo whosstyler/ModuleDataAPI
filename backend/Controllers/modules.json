@@ -1,0 +1,40 @@
+{
+  "modules": [
+    {
+      "Name": "client.dll",
+      "Signatures": [
+        {
+          "Name": "CCollisionProperty",
+          "Pattern": "A1 ? ? ? ? 56 57 8B F9"
+        },
+        {
+          "Name": "m_usSolidFlags",
+          "Pattern": "80 3D ? ? ? ? 00 74 09"
+        }
+      ],
+      "Members": [
+        {
+          "ClassName": "CCollisionProperty",
+          "MemberName": "m_usSolidFlags",
+          "Type": "uint8_t"
+        }
+      ]
+    },
+    {
+      "Name": "engine.dll",
+      "Signatures": [
+        {
+          "Name": "CEngineClient",
+          "Pattern": "B9 ? ? ? ? E8 ? ? ? ? 8B 0D ? ? ? ?"
+        }
+      ],
+      "Members": [
+        {
+          "ClassName": "CEngineClient",
+          "MemberName": "m_iMaxClients",
+          "Type": "int"
+        }
+      ]
+    }
+  ]
+}
